@@ -31,7 +31,7 @@ public class Circle {
 	}
 	
 	public double getCircumference() {
-		return Math.PI*2*r; 
+		return Math.PI*2*radius; 
 	}
 	
 	public void setRadius(double newRadius) {
