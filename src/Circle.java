@@ -30,6 +30,10 @@ public class Circle {
 		return color; 
 	}
 	
+	public double getCircumference() {
+		return Math.PI*2*r; 
+	}
+	
 	public void setRadius(double newRadius) {
 		radius = newRadius;
 	}
@@ -41,4 +45,5 @@ public class Circle {
 	public String toString() {
 		return "Circle[radius = " + radius + " color = " + color + "]";
 	}
+	
 }
