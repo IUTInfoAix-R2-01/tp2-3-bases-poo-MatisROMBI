@@ -7,5 +7,11 @@ public class TestCircle {
 		Circle c2 = new Circle(2.0);
 		System.out.println("The circle has radius of " + c2.getRadius() 
 		+ " and area of " + c2.getArea());
+		
+		Circle c4 = new Circle();
+		c4.setRadius(5.5);
+		System.out.println("radius is : " + c4.getRadius());
+		c4.setColor("green");
+		System.out.println("color is : " + c4.getColor());
 	}
 }
