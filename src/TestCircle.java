@@ -13,5 +13,8 @@ public class TestCircle {
 		System.out.println("radius is : " + c4.getRadius());
 		c4.setColor("green");
 		System.out.println("color is : " + c4.getColor());
+		
+		Circle c5 = new Circle(5.5);
+		System.out.println(c5.toString());
 	}
 }
